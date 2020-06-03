@@ -11,7 +11,7 @@ describe('parser', () => {
         done(err);
       } else {
 
-        parser(function() { return 1 }, file, fpath, {}).then(g => {
+        parser(function() { return 1 }, file, { filename: fpath }).then(g => {
           expect(g.nodes().length).to.equal(6);
           done();
         }).catch(err => done(err))

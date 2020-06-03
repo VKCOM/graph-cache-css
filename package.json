@@ -1,13 +1,13 @@
 {
   "name": "@vkontakte/graph-cache-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./tests/lib/*.js -A",
     "test-watch": "mocha ./tests/lib/*.js -w -A"
   },
-  "author": "Termina1",
+  "author": "ilfa",
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",
