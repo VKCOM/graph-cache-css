@@ -1,6 +1,6 @@
 {
   "name": "@vkontakte/graph-cache-css",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,9 @@
     "node": ">=12.13.1"
   },
   "dependencies": {
-    "graphlib": "^2.1.7",
-    "postcss": "^7.0.32"
+    "graphlib": "^2.1.8"
+  },
+  "peerDependencies": {
+    "postcss": "^7.0.0"
   }
 }
