@@ -4,7 +4,7 @@ This is a ```PostCSS``` parser for [graph-cache](https://github.com/VKCOM/graph-
 
 ## Installation
 
-```yarn add graph-cache-css```
+```yarn add @vkontakte/graph-cache-css```
 
 ## Usage
 ```javascript
